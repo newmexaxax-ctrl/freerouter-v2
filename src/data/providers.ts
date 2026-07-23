@@ -108,4 +108,28 @@ export const providers: Provider[] = [
     models: ["grok 4.5", "deepseek v4 flash"],
     note: "Many models listed; currently Grok 4.5 and DeepSeek V4 Flash",
   },
+  {
+    id: "codeapi",
+    name: "codeapi.pro",
+    url: "https://api.codeapi.pro/?ref=udc52e16topo",
+    tagline: "Gemini 3.5",
+    rating: 8,
+    models: ["gemini 3.5"],
+  },
+  {
+    id: "riftai",
+    name: "riftai.su",
+    url: "https://riftai.su/v1",
+    tagline: "Gemini and more",
+    rating: 8,
+    models: ["gemini", "and more"],
+  },
+  {
+    id: "ai-router",
+    name: "ai-router.dev",
+    url: "https://ai-router.dev/register?aff=ZFDYEJXNU6U8",
+    tagline: "GPT 5.4 · GPT 5.5",
+    rating: 9,
+    models: ["gpt 5.4", "gpt 5.5"],
+  },
 ];
